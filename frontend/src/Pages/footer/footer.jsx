@@ -49,6 +49,28 @@ import {
             <Heading marginTop={'30px'} size={"md"}>Why Aeropostale t shirts and tops are a women’s favorite this season?</Heading>
        
             <Text>Aeropostale online has all sorts of t-shirts and tops that are designed to everyone’s liking. The Aeropostale t shirts and tops we would like to give a shout-out to are bold off-shoulders, flirty front knots, cool tie-dyes and simply amazing logo styles. Ladies, stay trendy with up-to-the-minute Aeropostale clothing — it is anything but basic.</Text>
+        
+        
+            <Heading marginTop={'30px'}  size={"md"}>Aeropostale clothing style hacks for every man</Heading>
+       
+            <Text>Aeropostale wants every man to ace his everyday look. Aeropostale clothing comes in all the right sizes and all the right fits. One cannot go wrong with their casual look if they follow these simple styling tips:
+
+Choose an Aeropostale t shirt with a round neckline in any of the classic colours (black, white, blue, grey)
+Slip into a blue pair of slim-fit Aeropostale jeans in a stonewash finish
+Choose from a wide range of contrasting Aeropostale hoodies to complete your look
+You can also opt for a colourful Aeropostale sweatshirt if you’re not into hoodies
+Lastly, finish your ensemble with a pair of Aeropostale shoes. Go for a pair of lace-up or canvas sneakers — whatever you choose, you’re good to go!
+
+And that’s it, this casual yet hip head-to-toe Aeropostale look will fetch you some major brownie points.</Text>
+
+  
+<Heading marginTop={'30px'} size={"md"}>Over 2000 Aeropostale shirts to choose from</Heading>
+       
+       <Text>When you think of the Aeropostale brand and their shirt collection you automatically know it’s going to be head-turning for all the right reasons. Aeropostale shirts have so many different types of styles, fits, patterns, sleeves, collars, colors and more that are sure to hero your every look.
+</Text>
+   
+   
+            
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid
             templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
