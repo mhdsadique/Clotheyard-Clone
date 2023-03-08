@@ -27,13 +27,24 @@ const LoginInputs = () => {
   const dispatch = useDispatch();
   const handleClick = () => setShow(!show);
   const navigate=useNavigate()
+
+  // if(email==="sadique466@gmail.com"&&pass===1234){
+  //   navigate("/admin/products")
+  // }
   const handleLogin = async () => {
+
     await dispatch(logout());
 
     try {
-      if (email && pass) {
+      
+    if (email && pass) {
         await dispatch(login({ email, password: pass }));
-        if (token && isAuth) {
+        if(email && pass){
+          if(email==="sadique466@gmail.com"&&pass==="1234"){
+            navigate("/admin/products")
+           
+          }
+    else  if (token && isAuth) {
           toast({
             title: "Congratulations!!",
             description: "You have successfully logged in.",
@@ -42,22 +53,31 @@ const LoginInputs = () => {
             isClosable: true,
           });
           navigate("/")
+         
         }
-        if(email && pass){
-          await dispatch(login({ email, password: pass }));
-          if({email:"sadique466@gmail.com",password:1234}){
-            navigate("/admin/dashboard")
-          }
-        }
-         else {
+        else{
           toast({
-            title: "Oops!",
-            description: "Provide the correct credentials",
+            title: "Create An Account",
+            description: "You have to Create an account.",
             status: "error",
             duration: 4000,
             isClosable: true,
           });
+          navigate("/register")
         }
+        
+      }
+      else {
+       toast({
+         title: "Oops!",
+         description: "Provide the correct credentials",
+         status: "error",
+         duration: 4000,
+         isClosable: true,
+       });
+       navigate("/register")
+     }
+     
       } else {
         toast({
           title: "Fields are empty",
@@ -67,7 +87,9 @@ const LoginInputs = () => {
           isClosable: true,
         });
       }
-    } catch (err) {
+    } 
+    
+    catch (err) {
       toast({
         title: "Oops!",
         description: "Provide the correct credentials",

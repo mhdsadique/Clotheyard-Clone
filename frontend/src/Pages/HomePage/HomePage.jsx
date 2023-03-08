@@ -466,7 +466,7 @@ const HomePage = () => {
               showDots={true}
             >
               <Box>
-                <Link to="/women">
+                <Link to="/products/Womens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dwd31e0e5c/images/jeans-guide/031320-girls-shorts-guide/CURVY.jpg"
                     alt="product"
@@ -475,7 +475,7 @@ const HomePage = () => {
                 <p>Curvy New!</p>
               </Box>
               <Box>
-                <Link to="/women">
+                <Link to="/products/Womens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw1d7d9d9a/images/jeans-guide/031320-girls-shorts-guide/VINTAGE%20HIGH%20RISE.jpg"
                     alt="product"
@@ -484,7 +484,7 @@ const HomePage = () => {
                 <p>Vintage High Rise</p>
               </Box>
               <Box>
-                <Link to="/women">
+                <Link to="/products/Womens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dwe4c9367c/images/jeans-guide/031320-girls-shorts-guide/MOM.jpg"
                     alt="product"
@@ -493,7 +493,7 @@ const HomePage = () => {
                 <p>Mom New!</p>
               </Box>
               <Box>
-                <Link to="/women">
+                <Link to="/products/Womens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw263e01e0/images/jeans-guide/031320-girls-shorts-guide/BERMUDA.jpg"
                     alt="product"
@@ -502,7 +502,7 @@ const HomePage = () => {
                 <p>Bermuda</p>
               </Box>
               <Box>
-                <Link to="/women">
+                <Link to="/products/Womens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw95172bda/images/jeans-guide/031320-girls-shorts-guide/SUPER%20HIGH%20RISE.jpg"
                     alt="product"
@@ -675,7 +675,7 @@ const HomePage = () => {
               showDots={true}
             >
               <Box>
-                <Link to="/men">
+                <Link to="/products/Mens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dwc908e3b8/images/shorts-guide/2020/guys-shorts-guide/LONG%20CARGO.jpg"
                     alt="product"
@@ -684,7 +684,7 @@ const HomePage = () => {
                 <p>Long Cargo</p>
               </Box>
               <Box>
-                <Link to="/men">
+                <Link to="/products/Mens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw54f0dee5/images/shorts-guide/2020/guys-shorts-guide/SLIM%20CUT-OFF.jpg"
                     alt="product"
@@ -693,7 +693,7 @@ const HomePage = () => {
                 <p>Slimk Cut-Off</p>
               </Box>
               <Box>
-                <Link to="/men">
+                <Link to="/products/Mens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw8287ef13/images/shorts-guide/2020/guys-shorts-guide/BEACH%20CHINO.jpg"
                     alt="product"
@@ -702,7 +702,7 @@ const HomePage = () => {
                 <p>Beach Chino</p>
               </Box>
               <Box>
-                <Link to="/men">
+                <Link to="/products/Mens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw9619c8f9/images/shorts-guide/2020/guys-shorts-guide/SLIM%20CUFFED.jpg"
                     alt="product"
@@ -711,7 +711,7 @@ const HomePage = () => {
                 <p>Clasic Chino</p>
               </Box>
               <Box>
-                <Link to="/men">
+                <Link to="/products/Mens">
                   <img
                     src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw323348c8/images/shorts-guide/2020/guys-shorts-guide/CLASSIC%20CHINO.jpg"
                     alt="product"
@@ -998,7 +998,7 @@ const HomePage = () => {
             showDots={true}
           >
             <Box>
-              <Link to="/women">
+              <Link to="/products/Womens">
                 <img
                   src="https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw40b59aa7/images/homepage/2020/011520/jeans/SPR20_FIT_GUIDE_DENIM_GIRLS_CHEEKY-min.jpg"
                   alt="product"
