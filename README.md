@@ -1,6 +1,10 @@
 # Aeropostale-Clone
 This project is a complete clone UI of the Aeropostal website. Aeropostal, is an shopping mall–based retailer of casual apparel and accessories, principally targeting young adults and teenagers through.
 
+## Admin mail:sadique466@gmail.com,password:1234
+## Deployed Link
+<a href="https://clothiyard.netlify.app/">ClotheYard.netlify.app</a>
+
 ## Description
 Clotheyard, is an shopping mall–based retailer of casual apparel and accessories, principally targeting young adults and teenagers through its Aéropostale stores. Clotheyard maintains control over its proprietary brands by designing, sourcing, marketing, and selling all of its own merchandise.
 
@@ -10,7 +14,7 @@ Clotheyard, is an shopping mall–based retailer of casual apparel and accessori
 <img src="https://i.postimg.cc/L5h0XfJx/Screenshot-1036.png" alt="img3">
 <img src="https://i.postimg.cc/VNrqdRgr/Screenshot-1037.png" alt="img4">
 <img src="https://i.postimg.cc/ZRYJwfQ0/Screenshot-1038.png" alt="img5">
-<https://i.postimg.cc/654tb4MV/Screenshot-1039.png" alt="img6">
+<img src="https://i.postimg.cc/654tb4MV/Screenshot-1039.png" alt="img6">
 
 
 ## Tech Stacks
@@ -39,5 +43,4 @@ Clotheyard, is an shopping mall–based retailer of casual apparel and accessori
 - Cart Functionality
 - Auth Functionality
 
-## Deployed Link
-<a href="https://clothiyard.netlify.app/">ClotheYard.netlify.app</a>
+
