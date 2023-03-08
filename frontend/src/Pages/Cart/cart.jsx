@@ -9,7 +9,6 @@ import {
   Text,
   useToast,
 } from "@chakra-ui/react";
-import "./cart.css";
 import { CardItem } from "../../Components/CardItem/CardItem";
 import { useDispatch, useSelector } from "react-redux";
 import {

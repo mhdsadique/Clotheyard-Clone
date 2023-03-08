@@ -208,7 +208,7 @@ const DesktopNav = () => {
           </NaviLink>
         </Box>
       ))}
-       <Box >
+       {/* <Box >
           <NaviLink to={"/admin/dashboard"}>
             <Box
               py={1}
@@ -227,7 +227,7 @@ const DesktopNav = () => {
               Admin
             </Box>
           </NaviLink>
-        </Box>
+        </Box> */}
     </Flex>
     // </Center>
   );

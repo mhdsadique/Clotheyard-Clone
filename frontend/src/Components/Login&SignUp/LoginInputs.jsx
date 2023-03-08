@@ -42,7 +42,14 @@ const LoginInputs = () => {
             isClosable: true,
           });
           navigate("/")
-        } else {
+        }
+        if(email && pass){
+          await dispatch(login({ email, password: pass }));
+          if({email:"sadique466@gmail.com",password:1234}){
+            navigate("/admin/dashboard")
+          }
+        }
+         else {
           toast({
             title: "Oops!",
             description: "Provide the correct credentials",

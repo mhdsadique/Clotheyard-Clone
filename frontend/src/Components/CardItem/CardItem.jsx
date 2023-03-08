@@ -12,7 +12,6 @@ import {
 } from "@chakra-ui/react";
 import { Card, CardBody } from "@chakra-ui/react";
 
-import "../../Pages/Cart/cart.css";
 import { Radio, RadioGroup } from "@chakra-ui/react";
 
 export const CardItem = ({ e, handleDelete, handleUpdate }) => {
